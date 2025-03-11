@@ -17,3 +17,7 @@ body{
 .humita{
     margin: 12px;
 }
+
+.body{
+    outline: 2pc solid red;
+}
