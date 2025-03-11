@@ -1,4 +1,8 @@
 /* Estilos*/
+*{
+    box-sizing: border-box;
+}
+
 body{
     background-color: #ffbdbd
 }
@@ -18,6 +22,3 @@ body{
     margin: 12px;
 }
 
-.body{
-    outline: 2pc solid red;
-}
