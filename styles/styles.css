@@ -19,10 +19,18 @@ body{
 }
 
 .humita{
-    margin: 12px;
+    margin-top: -350px;
+    margin-bottom: 200px;
+    width: 220px;
+    height: 200px;
+    margin-left: 600px;
 }
 
 .home{
     text-align: center;
+    margin-bottom: 15px;
 }
 
+.alinear-humita{
+    width: 580px;
+}
