@@ -19,11 +19,14 @@ body{
 }
 
 .humita{
-    margin-top: -350px;
-    margin-bottom: 200px;
-    width: 220px;
-    height: 200px;
-    margin-left: 600px;
+    margin-top: -200px;
+    margin-bottom: 100px;
+    margin-right: 0;
+    margin-left: 1550px;
+}
+.modificar-humita{
+    width: 260px;
+    height: 240px;
 }
 
 .home{
@@ -32,5 +35,5 @@ body{
 }
 
 .alinear-humita{
-    width: 580px;
+    width: auto;
 }
