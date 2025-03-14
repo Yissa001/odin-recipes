@@ -37,13 +37,13 @@ img{
 }
 
 #centrar-humita-con-el-texto{
-    display: flex;
     margin: auto;
 }
 
 .ol-humitas{
     height: auto;
     width: auto;
+    flex: 1 0 0%;
 }
  
 
