@@ -38,6 +38,10 @@ img{
 
 #centrar-humita-con-el-texto{
     margin: auto;
+    max-width: 300px;
+    max-height: 300px;
+    width: auto;
+    height: auto;
 }
 
 .ol-humitas{
