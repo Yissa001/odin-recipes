@@ -1,43 +1,71 @@
 /* Estilos*/
-*{
+body{
+    background-color: white;
     box-sizing: border-box;
 }
 
-body{
-    background-color: #ffbdbd
-}
-
-.titulo{
-    font-family: "Times New Roman", sans-serif;
-    font-weight: bold;
-    text-align: center;
-    font-size: 50px;
-}
-
-.img-centro{
-    text-align: center;
-}
-
-.p-humita{
+.mother-div{
+    background-color: rgb(221, 185, 255);
+    max-width: 1200px;
+    width: 100%;
     margin: auto;
+    padding: 1%;
 }
 
-.humita{
-    margin-top: -200px;
-    margin-bottom: 100px;
-    margin-right: 0;
-    margin-left: 1550px;
+h1{
+    text-align: center;
+    font-size: 300%;
+    width: auto;
+    margin-top: 8px;
 }
-.modificar-humita{
-    width: 260px;
-    height: 240px;
+
+.img-centrada{
+    text-align: center;
+}
+
+img{
+    margin: 12px;
 }
 
 .home{
     text-align: center;
-    margin-bottom: 15px;
+    font-size: large;
 }
 
-.alinear-humita{
+#div-img-humita-centrada{
+    display: flex;
+}
+
+#centrar-humita-con-el-texto{
+    display: flex;
+    margin: auto;
+}
+
+.ol-humitas{
+    height: auto;
     width: auto;
 }
+ 
+
+
+
+
+
+
+
+
+/* this selector selects all divs inside of .flex-container */
+  .flex-container div {
+    background: peachpuff;
+    border: 4px solid brown;
+    height: 100px;
+    width: 250px;
+    flex: 1 1 auto;
+  }
+
+  /* only div.two is selected here */
+.flex-container .two {
+    flex-shrink: 0;
+    margin: 0 10px 0 10px;
+    
+  }
