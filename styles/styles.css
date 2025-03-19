@@ -37,9 +37,7 @@ img{
 }
 
 #centrar-humita-con-el-texto{
-    margin: auto;
-    width: auto;
-    height: auto;
+    align-self: center;
     flex: wrap;
 }
 
