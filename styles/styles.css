@@ -39,8 +39,10 @@ img{
 }
 
 #centrar-humita-con-el-texto{
-    align-self: center;
+    align-self: center ;
     flex-wrap: wrap;
+    flex: 1 1 0%;
+
 }
 
 #humita-img{
@@ -50,7 +52,7 @@ img{
 .ol-humitas{
     height: auto;
     width: auto;
-    flex: 1 0 0%;
+    flex: auto;
 }
 
 li, p{
